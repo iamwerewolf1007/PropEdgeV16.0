@@ -112,11 +112,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 11.0,
+    "delta": 0.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Bronny James scored 11pts vs 10.5 line (over by 0.5pts, called UNDER). Minutes: 19 played vs 13 L10 average (more than expected by 6min). Shot efficiency: 57% FG% vs 45% L10 average \u2014 hot shooting. Despite 8/10 signals agreeing, 2 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 5.1pts (error: 5.9pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Bronny James's L30 average of 2.8pts sits below the 10.5 line by 7.7pts. Minutes are increasing (L10: 13 vs L30: 8). Full signal consensus: 8/10 signals agree (V12 clf direction, V14 clf direction, All clfs agree, Reg consensus). V16 model projects 5.1pts (-5.4 vs line). Fusion confidence: 72% [PLAY+].",
     "flagDetails": [
       {
@@ -236,7 +236,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 18.9,
+    "actual_fga": 7.0,
+    "actual_fgm": 4.0,
+    "actual_fg_pct": 57.1
   },
   {
     "player": "Nique Clifford",
@@ -356,11 +360,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 24.0,
+    "delta": 6.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Nique Clifford scored 24pts vs 17.5 line (over by 6.5pts, called UNDER). Minutes: 39 played vs 33 L10 average (more than expected by 6min). Shot efficiency: 77% FG% vs 45% L10 average \u2014 hot shooting. Despite 7/10 signals agreeing, 3 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 14.6pts (error: 9.4pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Nique Clifford's L30 average of 12.6pts sits below the 17.5 line by 4.9pts. Strong signal alignment: 7/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 14.6pts (-2.9 vs line). Fusion confidence: 65% [SKIP].",
     "flagDetails": [
       {
@@ -480,7 +484,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 38.8,
+    "actual_fga": 13.0,
+    "actual_fgm": 10.0,
+    "actual_fg_pct": 76.9
   },
   {
     "player": "Micah Potter",
@@ -595,11 +603,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 15.0,
+    "delta": 1.5,
+    "lossType": "CLOSE_CALL",
+    "postMatchReason": "MISSED \u2717 \u2014 Micah Potter scored 15pts vs 13.5 line (over by 1.5pts, called UNDER). Minutes: 34 played vs 20 L10 average (more than expected by 14min). Despite 4/10 signals agreeing, 6 counter-signals proved relevant. Loss type: Close Call. Model projection: 12.4pts (error: 2.6pts, direction incorrect). Margin of 1.5pts \u2014 nearly correct. Statistical noise at the boundary. Consider treating sub-1pt gap plays vs DETROIT PISTONS as leans going forward.",
     "preMatchReason": "Micah Potter's L30 average of 11.1pts sits below the 13.5 line by 2.4pts. Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 12.4pts (-1.1 vs line). Fusion confidence: 65% [SKIP].",
     "flagDetails": [
       {
@@ -719,7 +727,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 34.3,
+    "actual_fga": 13.0,
+    "actual_fgm": 6.0,
+    "actual_fg_pct": 46.2
   },
   {
     "player": "Dyson Daniels",
@@ -834,11 +846,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
+    "result": "DNP",
     "actualPts": null,
     "delta": null,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "\ud83d\udeab No score found \u2014 assumed DNP or game not played.",
     "preMatchReason": "Dyson Daniels's L30 of 12.0pts vs the 12.5 line. Mixed signals: 5/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 13.0pts (+0.5 vs line). Fusion confidence: 65% [SKIP].",
     "flagDetails": [
       {
@@ -1078,11 +1090,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 8.0,
+    "delta": -9.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Devin Carter scored 8pts vs 17.5 line (under by 9.5pts, called UNDER). Minutes: 34 played vs 26 L10 average (more than expected by 8min). Shot efficiency: 21% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (7/10 agreed) proved correct. Model projection: 14.7pts (error: 6.7pts, direction correct). Prediction confirmed. Model and signal alignment validated vs SACRAMENTO KINGS.",
     "preMatchReason": "Devin Carter's L30 average of 10.8pts sits below the 17.5 line by 6.7pts. Minutes are increasing (L10: 26 vs L30: 20). Strong signal alignment: 7/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 14.7pts (-2.9 vs line). Fusion confidence: 64% [SKIP]. [High variance: std10=7.5pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -1202,7 +1214,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 34.4,
+    "actual_fga": 14.0,
+    "actual_fgm": 3.0,
+    "actual_fg_pct": 21.4
   },
   {
     "player": "Kon Knueppel",
@@ -1322,11 +1338,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 14.0,
+    "delta": -3.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Kon Knueppel scored 14pts vs 17.5 line (under by 3.5pts, called UNDER). Shot efficiency: 36% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 16.6pts (error: 2.6pts, direction correct). Prediction confirmed. Model and signal alignment validated vs CHARLOTTE HORNETS.",
     "preMatchReason": "Kon Knueppel is trending down 3.5pts vs their L30 baseline (L5: 14.8). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 16.6pts (-0.9 vs line). Fusion confidence: 64% [SKIP].",
     "flagDetails": [
       {
@@ -1446,7 +1462,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 31.2,
+    "actual_fga": 14.0,
+    "actual_fgm": 5.0,
+    "actual_fg_pct": 35.7
   },
   {
     "player": "Jalen Suggs",
@@ -1561,11 +1581,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 23.0,
+    "delta": 10.5,
+    "lossType": "BLOWOUT_EFFECT",
+    "postMatchReason": "MISSED \u2717 \u2014 Jalen Suggs scored 23pts vs 12.5 line (over by 10.5pts, called UNDER). Minutes: 38 played vs 30 L10 average (more than expected by 8min). Despite 6/10 signals agreeing, 4 counter-signals proved relevant. Loss type: Blowout Effect. Model projection: 12.8pts (error: 10.2pts, direction incorrect). Margin of 10pts suggests game script disrupted normal patterns.",
     "preMatchReason": "Jalen Suggs is highly consistent with a std deviation of just 4.0pts over their last 10 games. Strong signal alignment: 6/10 in favour. Opposing: V12 clf direction, All clfs agree. V16 model projects 12.8pts (+0.3 vs line). Fusion confidence: 64% [SKIP].",
     "flagDetails": [
       {
@@ -1685,7 +1705,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 38.0,
+    "actual_fga": 17.0,
+    "actual_fgm": 8.0,
+    "actual_fg_pct": 47.1
   },
   {
     "player": "Quenton Jackson",
@@ -1805,11 +1829,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 21.0,
+    "delta": 6.5,
+    "lossType": "MODEL_FAILURE_CONSENSUS",
+    "postMatchReason": "MISSED \u2717 \u2014 Quenton Jackson scored 21pts vs 14.5 line (over by 6.5pts, called UNDER). Minutes: 30 played vs 20 L10 average (more than expected by 10min). Despite 7/10 signals agreeing, 3 counter-signals proved relevant. Loss type: Model Failure Consensus. Model projection: 11.6pts (error: 9.4pts, direction incorrect). All 7 signals agreed but the outcome was anomalous \u2014 possible outlier game.",
     "preMatchReason": "Quenton Jackson's L30 average of 9.8pts sits below the 14.5 line by 4.7pts. Strong signal alignment: 7/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 11.6pts (-2.9 vs line). Fusion confidence: 64% [SKIP].",
     "flagDetails": [
       {
@@ -1929,7 +1953,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 29.7,
+    "actual_fga": 15.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 46.7
   },
   {
     "player": "Brandon Miller",
@@ -2044,11 +2072,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 19.0,
+    "delta": -0.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Brandon Miller scored 19pts vs 19.5 line (under by 0.5pts, called UNDER). Minutes: 27 played vs 31 L10 average (fewer than expected by 4min). Signal alignment (4/10 agreed) proved correct. Model projection: 19.0pts (error: 0.0pts, direction correct). Prediction confirmed. Model and signal alignment validated vs CHARLOTTE HORNETS.",
     "preMatchReason": "Brandon Miller is trending down 2.1pts vs their L30 baseline (L5: 17.6). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 19.0pts (-0.5 vs line). Fusion confidence: 64% [SKIP].",
     "flagDetails": [
       {
@@ -2168,7 +2196,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 27.3,
+    "actual_fga": 12.0,
+    "actual_fgm": 5.0,
+    "actual_fg_pct": 41.7
   },
   {
     "player": "Maxime Raynaud",
@@ -2288,11 +2320,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 21.0,
+    "delta": 3.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Maxime Raynaud scored 21pts vs 17.5 line (over by 3.5pts, called UNDER). Minutes: 37 played vs 31 L10 average (more than expected by 6min). Shot efficiency: 70% FG% vs 45% L10 average \u2014 hot shooting. Despite 4/10 signals agreeing, 6 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 17.1pts (error: 3.9pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Maxime Raynaud's L30 average of 16.3pts sits below the 17.5 line by 1.2pts. Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 17.1pts (-0.4 vs line). Fusion confidence: 64% [SKIP].",
     "flagDetails": [
       {
@@ -2412,7 +2444,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 37.4,
+    "actual_fga": 10.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 70.0
   },
   {
     "player": "Jalen Johnson",
@@ -2532,11 +2568,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
+    "result": "DNP",
     "actualPts": null,
     "delta": null,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "\ud83d\udeab No score found \u2014 assumed DNP or game not played.",
     "preMatchReason": "Jalen Johnson is trending down 4.2pts vs their L30 baseline (L5: 17.4). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 20.6pts (-1.9 vs line). Fusion confidence: 62% [SKIP].",
     "flagDetails": [
       {
@@ -2776,11 +2812,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 7.0,
+    "delta": -7.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Miles Bridges scored 7pts vs 14.5 line (under by 7.5pts, called UNDER). Minutes: 24 played vs 28 L10 average (fewer than expected by 4min). Shot efficiency: 38% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (5/10 agreed) proved correct. Model projection: 15.7pts (error: 8.7pts, direction correct). Prediction confirmed. Model and signal alignment validated vs CHARLOTTE HORNETS.",
     "preMatchReason": "Miles Bridges is trending up 3.3pts vs their L30 baseline (L5: 18.4). Mixed signals: 5/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 15.7pts (+1.2 vs line). Fusion confidence: 61% [SKIP].",
     "flagDetails": [
       {
@@ -2900,7 +2936,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 24.2,
+    "actual_fga": 8.0,
+    "actual_fgm": 3.0,
+    "actual_fg_pct": 37.5
   },
   {
     "player": "Andrew Wiggins",
@@ -3015,11 +3055,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 4.0,
+    "delta": -11.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Andrew Wiggins scored 4pts vs 15.5 line (under by 11.5pts, called UNDER). Shot efficiency: 11% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 14.6pts (error: 10.6pts, direction correct). Prediction confirmed. Model and signal alignment validated vs ATLANTA HAWKS.",
     "preMatchReason": "Andrew Wiggins's L30 of 15.2pts vs the 15.5 line. Minutes are decreasing (L10: 27 vs L30: 29). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 14.6pts (-0.9 vs line). Fusion confidence: 61% [SKIP].",
     "flagDetails": [
       {
@@ -3139,7 +3179,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 25.7,
+    "actual_fga": 9.0,
+    "actual_fgm": 1.0,
+    "actual_fg_pct": 11.1
   },
   {
     "player": "AJ Green",
@@ -3259,11 +3303,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 19.0,
+    "delta": -0.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 AJ Green scored 19pts vs 19.5 line (under by 0.5pts, called UNDER). Minutes: 36 played vs 31 L10 average (more than expected by 5min). Signal alignment (7/10 agreed) proved correct. Model projection: 14.6pts (error: 4.4pts, direction correct). Prediction confirmed. Model and signal alignment validated vs MILWAUKEE BUCKS.",
     "preMatchReason": "AJ Green's L30 average of 9.7pts sits below the 19.5 line by 9.8pts. Minutes are increasing (L10: 31 vs L30: 27). Strong signal alignment: 7/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 14.6pts (-4.8 vs line). Fusion confidence: 60% [SKIP]. [High variance: std10=8.2pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -3383,7 +3427,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 36.3,
+    "actual_fga": 16.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 43.8
   },
   {
     "player": "Tyler Herro",
@@ -3503,11 +3551,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 5.0,
+    "delta": -17.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Tyler Herro scored 5pts vs 22.5 line (under by 17.5pts, called UNDER). Minutes: 22 played vs 34 L10 average (fewer than expected by 12min). Shot efficiency: 22% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 20.6pts (error: 15.6pts, direction correct). Prediction confirmed. Model and signal alignment validated vs ATLANTA HAWKS.",
     "preMatchReason": "Tyler Herro's L30 average of 20.6pts sits below the 22.5 line by 1.9pts. Minutes are increasing (L10: 34 vs L30: 32). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 20.6pts (-1.9 vs line). Fusion confidence: 60% [SKIP].",
     "flagDetails": [
       {
@@ -3627,7 +3675,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 22.3,
+    "actual_fga": 9.0,
+    "actual_fgm": 2.0,
+    "actual_fg_pct": 22.2
   },
   {
     "player": "Ausar Thompson",
@@ -3747,11 +3799,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 7.0,
+    "delta": -2.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Ausar Thompson scored 7pts vs 9.5 line (under by 2.5pts, called UNDER). Minutes: 22 played vs 29 L10 average (fewer than expected by 7min). Shot efficiency: 75% FG% vs 45% L10 average \u2014 hot shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 9.3pts (error: 2.3pts, direction correct). Prediction confirmed. Model and signal alignment validated vs DETROIT PISTONS.",
     "preMatchReason": "Ausar Thompson is highly consistent with a std deviation of just 3.8pts over their last 10 games. Minutes are increasing (L10: 29 vs L30: 27). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 9.3pts (-0.2 vs line). Fusion confidence: 59% [SKIP].",
     "flagDetails": [
       {
@@ -3871,7 +3923,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 21.7,
+    "actual_fga": 4.0,
+    "actual_fgm": 3.0,
+    "actual_fg_pct": 75.0
   },
   {
     "player": "Ace Bailey",
@@ -3986,11 +4042,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 15.0,
+    "delta": -5.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Ace Bailey scored 15pts vs 20.5 line (under by 5.5pts, called UNDER). Minutes: 29 played vs 33 L10 average (fewer than expected by 3min). Shot efficiency: 33% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (7/10 agreed) proved correct. Model projection: 18.5pts (error: 3.5pts, direction correct). Prediction confirmed. Model and signal alignment validated vs UTAH JAZZ.",
     "preMatchReason": "Ace Bailey's L30 average of 17.1pts sits below the 20.5 line by 3.4pts. Strong signal alignment: 7/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 18.5pts (-2.0 vs line). Fusion confidence: 59% [SKIP]. [High variance: std10=7.2pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -4110,7 +4166,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 29.4,
+    "actual_fga": 21.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 33.3
   },
   {
     "player": "VJ Edgecombe",
@@ -4230,11 +4290,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 9.0,
+    "delta": -9.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 VJ Edgecombe scored 9pts vs 18.5 line (under by 9.5pts, called UNDER). Minutes: 31 played vs 35 L10 average (fewer than expected by 4min). Shot efficiency: 36% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 17.9pts (error: 8.9pts, direction correct). Prediction confirmed. Model and signal alignment validated vs MILWAUKEE BUCKS.",
     "preMatchReason": "VJ Edgecombe's L30 average of 17.5pts sits below the 18.5 line by 1.0pts. Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 17.9pts (-0.6 vs line). Fusion confidence: 59% [SKIP]. [High variance: std10=7.1pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -4354,7 +4414,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 31.2,
+    "actual_fga": 11.0,
+    "actual_fgm": 4.0,
+    "actual_fg_pct": 36.4
   },
   {
     "player": "Nickeil Alexander-Walker",
@@ -4469,11 +4533,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
+    "result": "DNP",
     "actualPts": null,
     "delta": null,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "\ud83d\udeab No score found \u2014 assumed DNP or game not played.",
     "preMatchReason": "Nickeil Alexander-Walker is trending up 4.8pts vs their L30 baseline (L5: 26.4). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 21.9pts (-0.6 vs line). Fusion confidence: 58% [SKIP].",
     "flagDetails": [
       {
@@ -4713,11 +4777,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 11.0,
+    "delta": -8.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Paul George scored 11pts vs 19.5 line (under by 8.5pts, called UNDER). Minutes: 21 played vs 32 L10 average (fewer than expected by 11min). Shot efficiency: 57% FG% vs 45% L10 average \u2014 hot shooting. Signal alignment (3/10 agreed) proved correct. Model projection: 19.0pts (error: 8.0pts, direction correct). Prediction confirmed. Model and signal alignment validated vs MILWAUKEE BUCKS.",
     "preMatchReason": "Paul George's L30 average of 18.3pts sits below the 19.5 line by 1.2pts. Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 19.0pts (-0.5 vs line). Fusion confidence: 57% [SKIP]. [High variance: std10=8.1pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -4837,7 +4901,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 21.3,
+    "actual_fga": 7.0,
+    "actual_fgm": 4.0,
+    "actual_fg_pct": 57.1
   },
   {
     "player": "Toumani Camara",
@@ -4957,11 +5025,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 15.0,
+    "delta": 0.5,
+    "lossType": "CLOSE_CALL",
+    "postMatchReason": "MISSED \u2717 \u2014 Toumani Camara scored 15pts vs 14.5 line (over by 0.5pts, called UNDER). Despite 4/10 signals agreeing, 6 counter-signals proved relevant. Loss type: Close Call. Model projection: 15.6pts (error: 0.6pts, direction incorrect). Margin of 0.5pts \u2014 nearly correct. Statistical noise at the boundary. Consider treating sub-1pt gap plays vs SACRAMENTO KINGS as leans going forward.",
     "preMatchReason": "Toumani Camara is trending up 4.4pts vs their L30 baseline (L5: 18.6). Mixed signals: 4/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 15.6pts (+1.1 vs line). Fusion confidence: 57% [SKIP]. [High variance: std10=9.0pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -5081,7 +5149,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 33.5,
+    "actual_fga": 14.0,
+    "actual_fgm": 6.0,
+    "actual_fg_pct": 42.9
   },
   {
     "player": "LeBron James",
@@ -5196,11 +5268,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 18.0,
+    "delta": -8.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 LeBron James scored 18pts vs 26.5 line (under by 8.5pts, called UNDER). Minutes: 17 played vs 33 L10 average (fewer than expected by 17min). Signal alignment (6/10 agreed) proved correct. Model projection: 21.0pts (error: 3.0pts, direction correct). Prediction confirmed. Model and signal alignment validated vs UTAH JAZZ.",
     "preMatchReason": "LeBron James's L30 average of 19.4pts sits below the 26.5 line by 7.1pts. Strong signal alignment: 6/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 21.0pts (-5.5 vs line). Fusion confidence: 57% [SKIP].",
     "flagDetails": [
       {
@@ -5320,7 +5392,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 16.6,
+    "actual_fga": 15.0,
+    "actual_fgm": 6.0,
+    "actual_fg_pct": 40.0
   },
   {
     "player": "Brice Sensabaugh",
@@ -5435,11 +5511,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 15.0,
+    "delta": -7.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Brice Sensabaugh scored 15pts vs 22.5 line (under by 7.5pts, called UNDER). Minutes: 13 played vs 31 L10 average (fewer than expected by 18min). Shot efficiency: 40% FG% vs 53% L10 average \u2014 cold shooting. Signal alignment (5/10 agreed) proved correct. Model projection: 21.1pts (error: 6.1pts, direction correct). Prediction confirmed. Model and signal alignment validated vs UTAH JAZZ.",
     "preMatchReason": "Brice Sensabaugh's L30 average of 19.4pts sits below the 22.5 line by 3.1pts. Minutes are increasing (L10: 31 vs L30: 27). Mixed signals: 5/10 agree. Key counter-signals: Reg consensus, V12 extreme conv, H2H aligned. V16 model projects 21.1pts (-1.4 vs line). Fusion confidence: 57% [SKIP]. [High variance: std10=7.9pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -5559,7 +5635,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 13.2,
+    "actual_fga": 10.0,
+    "actual_fgm": 4.0,
+    "actual_fg_pct": 40.0
   },
   {
     "player": "Wendell Carter Jr.",
@@ -5674,11 +5754,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 3.0,
+    "delta": -7.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Wendell Carter Jr. scored 3pts vs 10.5 line (under by 7.5pts, called UNDER). Minutes: 31 played vs 28 L10 average (more than expected by 3min). Shot efficiency: 0% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 11.4pts (error: 8.4pts, direction correct). Prediction confirmed. Model and signal alignment validated vs ORLANDO MAGIC.",
     "preMatchReason": "Wendell Carter Jr.'s L30 average of 11.7pts sits above the 10.5 line by 1.2pts. Mixed signals: 4/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 11.4pts (+0.9 vs line). Fusion confidence: 56% [SKIP].",
     "flagDetails": [
       {
@@ -5798,7 +5878,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 31.1,
+    "actual_fga": 5.0,
+    "actual_fgm": 0.0,
+    "actual_fg_pct": 0.0
   },
   {
     "player": "Immanuel Quickley",
@@ -5918,11 +6002,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 4.0,
+    "delta": -10.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Immanuel Quickley scored 4pts vs 14.5 line (under by 10.5pts, called UNDER). Minutes: 17 played vs 30 L10 average (fewer than expected by 14min). Shot efficiency: 33% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 13.9pts (error: 9.9pts, direction correct). Prediction confirmed. Model and signal alignment validated vs BROOKLYN NETS.",
     "preMatchReason": "Immanuel Quickley is trending down 6.8pts vs their L30 baseline (L5: 10.0). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 13.9pts (-0.6 vs line). Fusion confidence: 56% [SKIP].",
     "flagDetails": [
       {
@@ -6042,7 +6126,11 @@
       true,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 16.6,
+    "actual_fga": 6.0,
+    "actual_fgm": 2.0,
+    "actual_fg_pct": 33.3
   },
   {
     "player": "Darius Garland",
@@ -6157,11 +6245,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 15.0,
+    "delta": -5.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Darius Garland scored 15pts vs 20.5 line (under by 5.5pts, called UNDER). Minutes: 27 played vs 30 L10 average (fewer than expected by 3min). Shot efficiency: 35% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (3/10 agreed) proved correct. Model projection: 19.4pts (error: 4.4pts, direction correct). Prediction confirmed. Model and signal alignment validated vs GOLDEN STATE WARRIORS.",
     "preMatchReason": "Darius Garland is trending down 2.2pts vs their L30 baseline (L5: 17.2). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 19.4pts (-1.1 vs line). Fusion confidence: 56% [SKIP]. [High variance: std10=8.4pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -6281,7 +6369,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 26.6,
+    "actual_fga": 17.0,
+    "actual_fgm": 6.0,
+    "actual_fg_pct": 35.3
   },
   {
     "player": "Scottie Barnes",
@@ -6396,11 +6488,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 18.0,
+    "delta": 1.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Scottie Barnes scored 18pts vs 16.5 line (over by 1.5pts, called UNDER). Shot efficiency: 73% FG% vs 45% L10 average \u2014 hot shooting. Despite 3/10 signals agreeing, 7 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 15.8pts (error: 2.2pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Scottie Barnes's L30 of 15.9pts vs the 16.5 line. Minutes are decreasing (L10: 30 vs L30: 32). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 15.8pts (-0.7 vs line). Fusion confidence: 56% [SKIP].",
     "flagDetails": [
       {
@@ -6520,7 +6612,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 32.0,
+    "actual_fga": 11.0,
+    "actual_fgm": 8.0,
+    "actual_fg_pct": 72.7
   },
   {
     "player": "CJ McCollum",
@@ -6640,11 +6736,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
+    "result": "DNP",
     "actualPts": null,
     "delta": null,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "\ud83d\udeab No score found \u2014 assumed DNP or game not played.",
     "preMatchReason": "CJ McCollum's L30 of 18.9pts vs the 19.5 line. Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 18.8pts (-0.7 vs line). Fusion confidence: 55% [SKIP].",
     "flagDetails": [
       {
@@ -6884,11 +6980,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 23.0,
+    "delta": 7.5,
+    "lossType": "MODEL_FAILURE_GENERAL",
+    "postMatchReason": "MISSED \u2717 \u2014 Jrue Holiday scored 23pts vs 15.5 line (over by 7.5pts, called UNDER). Despite 5/10 signals agreeing, 5 counter-signals proved relevant. Loss type: Model Failure General. Model projection: 16.7pts (error: 6.3pts, direction incorrect). Genuine model uncertainty \u2014 no dominant structural cause identified.",
     "preMatchReason": "Jrue Holiday's L30 average of 17.5pts sits above the 15.5 line by 2.0pts. Mixed signals: 5/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 16.7pts (+1.2 vs line). Fusion confidence: 55% [SKIP]. [High variance: std10=7.3pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -7008,7 +7104,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 32.5,
+    "actual_fga": 18.0,
+    "actual_fgm": 8.0,
+    "actual_fg_pct": 44.4
   },
   {
     "player": "Onyeka Okongwu",
@@ -7123,11 +7223,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
+    "result": "DNP",
     "actualPts": null,
     "delta": null,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "\ud83d\udeab No score found \u2014 assumed DNP or game not played.",
     "preMatchReason": "Onyeka Okongwu's L30 average of 13.8pts sits below the 15.5 line by 1.7pts. Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 13.4pts (-2.1 vs line). Fusion confidence: 55% [SKIP].",
     "flagDetails": [
       {
@@ -7362,11 +7462,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 25.0,
+    "delta": 5.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Brandon Ingram scored 25pts vs 19.5 line (over by 5.5pts, called UNDER). Shot efficiency: 70% FG% vs 45% L10 average \u2014 hot shooting. Despite 4/10 signals agreeing, 6 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 19.8pts (error: 5.2pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Brandon Ingram's L30 average of 21.3pts sits above the 19.5 line by 1.8pts. Minutes are decreasing (L10: 31 vs L30: 33). Mixed signals: 4/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 19.8pts (+0.3 vs line). Fusion confidence: 54% [SKIP]. [High variance: std10=7.9pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -7486,7 +7586,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 32.0,
+    "actual_fga": 10.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 70.0
   },
   {
     "player": "LaMelo Ball",
@@ -7606,11 +7710,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 19.0,
+    "delta": -3.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 LaMelo Ball scored 19pts vs 22.5 line (under by 3.5pts, called UNDER). Shot efficiency: 37% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (3/10 agreed) proved correct. Model projection: 22.1pts (error: 3.1pts, direction correct). Prediction confirmed. Model and signal alignment validated vs CHARLOTTE HORNETS.",
     "preMatchReason": "LaMelo Ball is trending up 4.8pts vs their L30 baseline (L5: 26.2). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 22.1pts (-0.4 vs line). Fusion confidence: 54% [SKIP]. [High variance: std10=7.3pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -7730,7 +7834,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 29.1,
+    "actual_fga": 19.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 36.8
   },
   {
     "player": "Bam Adebayo",
@@ -7845,11 +7953,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 25.0,
+    "delta": 3.5,
+    "lossType": "MINUTES_SHORTFALL",
+    "postMatchReason": "MISSED \u2717 \u2014 Bam Adebayo scored 25pts vs 21.5 line (over by 3.5pts, called UNDER). Minutes: 29 played vs 35 L10 average (fewer than expected by 6min). Shot efficiency: 61% FG% vs 45% L10 average \u2014 hot shooting. Despite 3/10 signals agreeing, 7 counter-signals proved relevant. Loss type: Minutes Shortfall. Model projection: 20.2pts (error: 4.8pts, direction incorrect). Player received 29 min vs expected 35 \u2014 usage was restricted. Monitor Bam Adebayo's minutes situation \u2014 rotation changes may be underway.",
     "preMatchReason": "Bam Adebayo is trending down 3.9pts vs their L30 baseline (L5: 18.8). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 20.2pts (-1.3 vs line). Fusion confidence: 54% [SKIP].",
     "flagDetails": [
       {
@@ -7969,7 +8077,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 29.2,
+    "actual_fga": 18.0,
+    "actual_fgm": 11.0,
+    "actual_fg_pct": 61.1
   },
   {
     "player": "Franz Wagner",
@@ -8084,11 +8196,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 20.0,
+    "delta": 3.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Franz Wagner scored 20pts vs 16.5 line (over by 3.5pts, called UNDER). Minutes: 26 played vs 20 L10 average (more than expected by 7min). Shot efficiency: 39% FG% vs 45% L10 average \u2014 cold shooting. Despite 3/10 signals agreeing, 7 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 17.3pts (error: 2.7pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Franz Wagner is trending down 3.8pts vs their L30 baseline (L5: 16.6). Minutes are decreasing (L10: 20 vs L30: 30). Mixed signals: 3/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 17.3pts (+0.8 vs line). Fusion confidence: 54% [SKIP].",
     "flagDetails": [
       {
@@ -8208,7 +8320,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 26.2,
+    "actual_fga": 18.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 38.9
   },
   {
     "player": "Julian Strawther",
@@ -8323,11 +8439,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 25.0,
+    "delta": 9.5,
+    "lossType": "BLOWOUT_EFFECT",
+    "postMatchReason": "MISSED \u2717 \u2014 Julian Strawther scored 25pts vs 15.5 line (over by 9.5pts, called UNDER). Minutes: 34 played vs 11 L10 average (more than expected by 24min). Despite 6/10 signals agreeing, 4 counter-signals proved relevant. Loss type: Blowout Effect. Model projection: 10.5pts (error: 14.5pts, direction incorrect). Margin of 10pts suggests game script disrupted normal patterns.",
     "preMatchReason": "Julian Strawther's L30 average of 9.0pts sits below the 15.5 line by 6.5pts. Minutes are decreasing (L10: 11 vs L30: 17). Strong signal alignment: 6/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 10.5pts (-5.0 vs line). Fusion confidence: 54% [SKIP].",
     "flagDetails": [
       {
@@ -8447,7 +8563,11 @@
       true,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 34.4,
+    "actual_fga": 19.0,
+    "actual_fgm": 9.0,
+    "actual_fg_pct": 47.4
   },
   {
     "player": "Nikola Topi\u0107",
@@ -8567,11 +8687,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 18.0,
+    "delta": 3.5,
+    "lossType": "MODEL_FAILURE_CONSENSUS",
+    "postMatchReason": "MISSED \u2717 \u2014 Nikola Topi\u0107 scored 18pts vs 14.5 line (over by 3.5pts, called UNDER). Minutes: 39 played vs 10 L10 average (more than expected by 29min). Despite 7/10 signals agreeing, 3 counter-signals proved relevant. Loss type: Model Failure Consensus. Model projection: 6.4pts (error: 11.6pts, direction incorrect). All 7 signals agreed but the outcome was anomalous \u2014 possible outlier game.",
     "preMatchReason": "Nikola Topi\u0107's L30 average of 3.8pts sits below the 14.5 line by 10.7pts. Strong signal alignment: 7/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 6.4pts (-8.1 vs line). Fusion confidence: 53% [SKIP].",
     "flagDetails": [
       {
@@ -8658,7 +8778,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 39.4,
+    "actual_fga": 16.0,
+    "actual_fgm": 8.0,
+    "actual_fg_pct": 50.0
   },
   {
     "player": "Kawhi Leonard",
@@ -8773,11 +8897,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
+    "result": "DNP",
     "actualPts": null,
     "delta": null,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "\ud83d\udeab No score found \u2014 assumed DNP or game not played.",
     "preMatchReason": "Kawhi Leonard is trending down 2.6pts vs their L30 baseline (L5: 25.6). Mixed signals: 4/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 26.5pts (-2.0 vs line). Fusion confidence: 52% [SKIP].",
     "flagDetails": [
       {
@@ -9012,11 +9136,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 2.0,
+    "delta": -10.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Jake LaRavia scored 2pts vs 12.5 line (under by 10.5pts, called UNDER). Shot efficiency: 33% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (6/10 agreed) proved correct. Model projection: 7.7pts (error: 5.7pts, direction correct). Prediction confirmed. Model and signal alignment validated vs UTAH JAZZ.",
     "preMatchReason": "Jake LaRavia's L30 average of 6.1pts sits below the 12.5 line by 6.4pts. Minutes are increasing (L10: 26 vs L30: 21). Strong signal alignment: 6/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 7.7pts (-4.8 vs line). Fusion confidence: 52% [SKIP].",
     "flagDetails": [
       {
@@ -9136,7 +9260,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 24.8,
+    "actual_fga": 3.0,
+    "actual_fgm": 1.0,
+    "actual_fg_pct": 33.3
   },
   {
     "player": "Paolo Banchero",
@@ -9256,11 +9384,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 23.0,
+    "delta": 2.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Paolo Banchero scored 23pts vs 20.5 line (over by 2.5pts, called UNDER). Minutes: 38 played vs 34 L10 average (more than expected by 4min). Shot efficiency: 32% FG% vs 45% L10 average \u2014 cold shooting. Despite 4/10 signals agreeing, 6 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 20.8pts (error: 2.2pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Paolo Banchero is trending down 3.3pts vs their L30 baseline (L5: 19.6). Mixed signals: 4/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 20.8pts (+0.3 vs line). Fusion confidence: 51% [SKIP]. [High variance: std10=9.1pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -9380,7 +9508,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 37.9,
+    "actual_fga": 22.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 31.8
   },
   {
     "player": "Donovan Clingan",
@@ -9500,11 +9632,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 13.0,
+    "delta": -0.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Donovan Clingan scored 13pts vs 13.5 line (under by 0.5pts, called UNDER). Shot efficiency: 60% FG% vs 45% L10 average \u2014 hot shooting. Signal alignment (3/10 agreed) proved correct. Model projection: 12.6pts (error: 0.4pts, direction correct). Prediction confirmed. Model and signal alignment validated vs SACRAMENTO KINGS.",
     "preMatchReason": "Donovan Clingan is trending down 2.7pts vs their L30 baseline (L5: 11.0). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 12.6pts (-0.9 vs line). Fusion confidence: 51% [SKIP].",
     "flagDetails": [
       {
@@ -9624,7 +9756,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 23.8,
+    "actual_fga": 10.0,
+    "actual_fgm": 6.0,
+    "actual_fg_pct": 60.0
   },
   {
     "player": "Jarace Walker",
@@ -9744,11 +9880,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
+    "result": "DNP",
     "actualPts": null,
     "delta": null,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "\ud83d\udeab No score found \u2014 assumed DNP or game not played.",
     "preMatchReason": "Jarace Walker's L30 average of 14.7pts sits below the 19.5 line by 4.8pts. Strong signal alignment: 6/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 15.7pts (-3.8 vs line). Fusion confidence: 51% [SKIP].",
     "flagDetails": [
       {
@@ -9988,11 +10124,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 6.0,
+    "delta": -1.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Luguentz Dort scored 6pts vs 7.5 line (under by 1.5pts, called UNDER). Shot efficiency: 33% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 7.7pts (error: 1.7pts, direction correct). Prediction confirmed. Model and signal alignment validated vs PHOENIX SUNS.",
     "preMatchReason": "Luguentz Dort's L30 of 7.9pts vs the 7.5 line. Minutes are decreasing (L10: 22 vs L30: 26). Mixed signals: 4/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 7.7pts (+0.2 vs line). Fusion confidence: 51% [SKIP].",
     "flagDetails": [
       {
@@ -10112,7 +10248,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 20.1,
+    "actual_fga": 6.0,
+    "actual_fgm": 2.0,
+    "actual_fg_pct": 33.3
   },
   {
     "player": "Desmond Bane",
@@ -10227,11 +10367,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 8.0,
+    "delta": -9.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Desmond Bane scored 8pts vs 17.5 line (under by 9.5pts, called UNDER). Minutes: 18 played vs 33 L10 average (fewer than expected by 15min). Shot efficiency: 38% FG% vs 45% L10 average \u2014 cold shooting. Signal alignment (4/10 agreed) proved correct. Model projection: 19.2pts (error: 11.2pts, direction correct). Prediction confirmed. Model and signal alignment validated vs ORLANDO MAGIC.",
     "preMatchReason": "Desmond Bane's L30 average of 21.8pts sits above the 17.5 line by 4.3pts. Mixed signals: 4/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 19.2pts (+1.7 vs line). Fusion confidence: 50% [SKIP]. [High variance: std10=7.1pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -10351,7 +10491,11 @@
       true,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 17.6,
+    "actual_fga": 8.0,
+    "actual_fgm": 3.0,
+    "actual_fg_pct": 37.5
   },
   {
     "player": "Deni Avdija",
@@ -10466,11 +10610,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 25.0,
+    "delta": -1.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Deni Avdija scored 25pts vs 26.5 line (under by 1.5pts, called UNDER). Signal alignment (3/10 agreed) proved correct. Model projection: 24.3pts (error: 0.7pts, direction correct). Prediction confirmed. Model and signal alignment validated vs SACRAMENTO KINGS.",
     "preMatchReason": "Deni Avdija is trending up 6.2pts vs their L30 baseline (L5: 28.8). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 24.3pts (-2.2 vs line). Fusion confidence: 50% [SKIP].",
     "flagDetails": [
       {
@@ -10590,7 +10734,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 33.1,
+    "actual_fga": 19.0,
+    "actual_fgm": 9.0,
+    "actual_fg_pct": 47.4
   },
   {
     "player": "Tyrese Maxey",
@@ -10710,11 +10858,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 21.0,
+    "delta": -7.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Tyrese Maxey scored 21pts vs 28.5 line (under by 7.5pts, called UNDER). Minutes: 27 played vs 36 L10 average (fewer than expected by 9min). Shot efficiency: 62% FG% vs 45% L10 average \u2014 hot shooting. Signal alignment (6/10 agreed) proved correct. Model projection: 25.0pts (error: 4.0pts, direction correct). Prediction confirmed. Model and signal alignment validated vs MILWAUKEE BUCKS.",
     "preMatchReason": "Tyrese Maxey is trending down 3.2pts vs their L30 baseline (L5: 22.8). Strong signal alignment: 6/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 25.0pts (-3.5 vs line). Fusion confidence: 50% [SKIP].",
     "flagDetails": [
       {
@@ -10834,7 +10982,11 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 27.0,
+    "actual_fga": 13.0,
+    "actual_fgm": 8.0,
+    "actual_fg_pct": 61.5
   },
   {
     "player": "Bruce Brown",
@@ -10949,11 +11101,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 14.0,
+    "delta": 5.5,
+    "lossType": "SHOOTING_VARIANCE",
+    "postMatchReason": "MISSED \u2717 \u2014 Bruce Brown scored 14pts vs 8.5 line (over by 5.5pts, called UNDER). Minutes: 28 played vs 22 L10 average (more than expected by 6min). Shot efficiency: 88% FG% vs 45% L10 average \u2014 hot shooting. Despite 5/10 signals agreeing, 5 counter-signals proved relevant. Loss type: Shooting Variance. Model projection: 9.0pts (error: 5.0pts, direction incorrect). Shooting efficiency deviated sharply \u2014 luck/defence disrupted scoring efficiency.",
     "preMatchReason": "Bruce Brown is highly consistent with a std deviation of just 3.3pts over their last 10 games. Minutes are decreasing (L10: 22 vs L30: 24). Mixed signals: 5/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 9.0pts (+0.5 vs line). Fusion confidence: 49% [SKIP].",
     "flagDetails": [
       {
@@ -11073,7 +11225,11 @@
       true,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 28.2,
+    "actual_fga": 8.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 87.5
   },
   {
     "player": "Nikola Joki\u0107",
@@ -11188,11 +11344,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
-    "lossType": null,
-    "postMatchReason": null,
+    "result": "LOSS",
+    "actualPts": 23.0,
+    "delta": 6.5,
+    "lossType": "MINUTES_SHORTFALL",
+    "postMatchReason": "MISSED \u2717 \u2014 Nikola Joki\u0107 scored 23pts vs 16.5 line (over by 6.5pts, called UNDER). Minutes: 18 played vs 38 L10 average (fewer than expected by 20min). Shot efficiency: 58% FG% vs 45% L10 average \u2014 hot shooting. Despite 4/10 signals agreeing, 6 counter-signals proved relevant. Loss type: Minutes Shortfall. Model projection: 22.7pts (error: 0.3pts, direction incorrect). Player received 18 min vs expected 38 \u2014 usage was restricted. Monitor Nikola Joki\u0107's minutes situation \u2014 rotation changes may be underway.",
     "preMatchReason": "Nikola Joki\u0107's L30 average of 26.0pts sits above the 16.5 line by 9.5pts. Mixed signals: 4/10 agree. Key counter-signals: V12 clf direction, All clfs agree, V12 extreme conv. V16 model projects 22.7pts (+6.2 vs line). Fusion confidence: 49% [SKIP]. [High variance: std10=8.0pts \u2014 outcome could deviate significantly from projection.]",
     "flagDetails": [
       {
@@ -11312,7 +11468,11 @@
       true,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 18.2,
+    "actual_fga": 12.0,
+    "actual_fgm": 7.0,
+    "actual_fg_pct": 58.3
   },
   {
     "player": "Scoot Henderson",
@@ -11427,11 +11587,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 15.0,
+    "delta": -1.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Scoot Henderson scored 15pts vs 16.5 line (under by 1.5pts, called UNDER). Signal alignment (3/10 agreed) proved correct. Model projection: 15.3pts (error: 0.3pts, direction correct). Prediction confirmed. Model and signal alignment validated vs SACRAMENTO KINGS.",
     "preMatchReason": "Scoot Henderson's L30 average of 13.9pts sits below the 16.5 line by 2.6pts. Minutes are increasing (L10: 27 vs L30: 25). Mixed signals: 3/10 agree. Key counter-signals: V14 clf direction, All clfs agree, Reg consensus. V16 model projects 15.3pts (-1.2 vs line). Fusion confidence: 47% [SKIP].",
     "flagDetails": [
       {
@@ -11551,7 +11711,11 @@
       false,
       true
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 27.1,
+    "actual_fga": 12.0,
+    "actual_fgm": 6.0,
+    "actual_fg_pct": 50.0
   },
   {
     "player": "Kenrich Williams",
@@ -11671,11 +11835,11 @@
     "h2h_ts_dev": 0.0,
     "h2hFgaDev": 0.0,
     "h2hConfidence": 0.0,
-    "result": "",
-    "actualPts": null,
-    "delta": null,
+    "result": "WIN",
+    "actualPts": 13.0,
+    "delta": -2.5,
     "lossType": null,
-    "postMatchReason": null,
+    "postMatchReason": "HIT \u2713 \u2014 Kenrich Williams scored 13pts vs 15.5 line (under by 2.5pts, called UNDER). Minutes: 33 played vs 9 L10 average (more than expected by 24min). Signal alignment (6/10 agreed) proved correct. Model projection: 8.2pts (error: 4.8pts, direction correct). Prediction confirmed. Model and signal alignment validated vs PHOENIX SUNS.",
     "preMatchReason": "Kenrich Williams's L30 average of 6.8pts sits below the 15.5 line by 8.7pts. Minutes are decreasing (L10: 9 vs L30: 15). Strong signal alignment: 6/10 in favour. Opposing: V12 extreme conv, H2H aligned. V16 model projects 8.2pts (-7.3 vs line). Fusion confidence: 46% [SKIP].",
     "flagDetails": [
       {
@@ -11795,6 +11959,10 @@
       false,
       false
     ],
-    "source": "api"
+    "source": "api",
+    "actual_min": 32.9,
+    "actual_fga": 12.0,
+    "actual_fgm": 5.0,
+    "actual_fg_pct": 41.7
   }
 ]
